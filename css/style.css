@@ -11,7 +11,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -81,8 +81,20 @@ header nav a:hover{
     margin-right: 8px;
 }
 
+.container {
+    margin-left: 20px;
+}
+
+.filmeprincipal .container {
+    width: 50%;
+}
+
 .box-filme {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-flmes{
+    margin-top: 5px;
 }
